@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: verdana sans-serif;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+header div {
+    width: 20%;
+    height: 200px;
+    background-color: royalblue;
+    float: left;
+    margin: 2.5%;
+}
+header div:nth-child(1){
+    
+    background-color: aliceblue;
+ 
+}
+header div:nth-child(2){
+    
+    background-color: red;
+}
+header div:nth-child(3){
+    
+    background-color: orange;
+}
+header div:nth-child(4){
+    
+    background-color: yellow;
+}
+header div:nth-child(1):hover{
+    background-color: pink;
+}
+header div:nth-child(2):hover{
+    background-color: green;
+}
+header div:nth-child(3):hover{
+    background-color: slategrey;
+}
+header div:nth-child(4):hover{
+    background-color: aqua;
+}
+nav.top {
+    background-color: black;
+    padding: 10px 0 10px 50px;
+    
+  
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+nav ul {
+    list-style: none;
+    max-width: 1280px;
+    margin: 0 auto;
+  
+}
+
+nav ul li {
+   float: left;
+    width: 25%;
+    margin: 0 10px;
+
+
+}
+
+
+nav ul li a {
+    display: block;
+    padding: 10px 30px;
+    border: 2px solid white;
+    text-align: center;
+    font-size: 26px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    background-color: gray;
+    border-color: yellow;
+    color: yellow;
+}
+div.blok {
+    max-width: 1280px;
+    margin: 40px auto 0 auto;
+}
+main { 
+    float: left;
+    width: 65%;
+    padding: 0px 20px 0 20px;
+
+    
+}
+article img {
+    width: 200px;
+    float: left;
+    margin: 20px 20px 20px 0;
+}
+article h1 {
+    text-transform: uppercase;
+}
+
+article p {
+    margin-top: 20px;
+}
+aside {
+    
+    float: left;
+    width: 30%;
+    
+}
+section.contact p {
+    margin-bottom: 24px;
+    font-weight: bold;
+    
+}
+section.contact {
+    background-color: #ddd;
+    padding: 15px;
+}
+
+section.bottom {
+    height: 300px;
+    margin-top: 20px;
+    background-color: #ddd;
+    padding: 15px;
+}
+section.contact ul {
+   list-style: none;
+   
+}
+section.contact  li {
+    margin: 10px 0;
+}
+
+section.contact  li i {
+    margin-right: 20px;
+    color: #333;
+    
+}
+footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    
+}
+div.blok::after {
+    content: "";
+    display: block;
+    clear: both;
+}   
+
